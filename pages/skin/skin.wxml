@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="imglist">
+    <view class="item" wx:for="{{skin}}" wx:key="{{index}}">
+      <image bindtap="skinDetail" data-item="{{item}}" class="itemimg" src="https:{{item.img}}" data-index="{{index}}" />
+    </view>
+  </view>
+</view>
